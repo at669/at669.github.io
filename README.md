@@ -1,4 +1,4 @@
-# Please visit the [main page](https://at669.github.io/amandatrang/).
+# Please visit the [main page](https://at669.github.io/).
 
 ## Copyright and License
 
