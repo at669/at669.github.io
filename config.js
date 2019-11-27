@@ -14,52 +14,46 @@ const profile = {
         iconName: 'location',
         text: 'New York, NY',
         url: '',
-        hoverColor: '#546e7a'
+        hoverColor: '#333a87'
       },
       {
         iconName: 'github',
         text: 'GitHub',
         url: 'https://github.com/at669',
-        hoverColor: '#1da1f2'
+        hoverColor: '#333a87'
       },
       {
         iconName: 'email',
         text: 'amanda.q.trang@gmail.com',
         url: 'mailto://amanda.q.trang@gmail.com',
-        hoverColor: '#546e7a'
+        hoverColor: '#333a87'
       },
       {
         iconName: 'account-star',
         text: 'LinkedIn',
         url: 'https://www.linkedin.com/in/amandatrang/',
-        hoverColor: '#e9641c'
+        hoverColor: '#333a87'
       }
     ]
   },
   social: [
-    // {
-    //   iconName: 'twitter',
-    //   url: 'https://twitter.com/username',
-    //   text: "I'm on Twitter",
-    //   hoverColor: '#1da1f2'
-    // },
     {
       iconName: 'account-star',
       url: 'https://www.linkedin.com/in/amandatrang/',
       text: "I'm on LinkedIn",
-      hoverColor: '#0088cc'
+      hoverColor: '#333a87'
     },
     {
       iconName: 'github',
       url: 'https://github.com/at669',
       text: "I'm on Github",
-      hoverColor: '#000'
+      hoverColor: '#333a87'
     },
     {
       iconName: 'email',
       url: 'mailto:amanda.q.trang@gmail.com',
       text: 'Send me an email',
-      hoverColor: '#000'
+      hoverColor: '#333a87'
     }
   ]
 }
