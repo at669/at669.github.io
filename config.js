@@ -25,7 +25,7 @@ const profile = {
       {
         iconName: 'email',
         text: 'amanda.q.trang@gmail.com',
-        url: 'mailto://amanda.q.trang@gmail.com',
+        url: 'mailto:amanda.q.trang@gmail.com',
         hoverColor: '#333a87'
       },
       {
@@ -77,15 +77,15 @@ const projects = [
   {
     title: 'Cluck Cluck Moose',
     img: 'https://lh3.googleusercontent.com/D5OqXaqTx9I-IrAvkiqxioJsWUYjQixgQ-6cpsnJ5jASG0_BehaIJEVCjy4CVyt87D8=s360-rw',
-    description: 'An Android chicken-stacking RPS game, with lots of bad puns.',
-    categories: ['game dev', 'C++'],
+    description: 'A mobile chicken-stacking RPS game with lots of bad puns.',
+    categories: ['game dev', 'C/C++'],
     siteUrl: 'https://play.google.com/store/apps/details?id=com.wingingitstudios.ccm&hl=en_US',
     sourceCodeUrl: 'https://github.com/ZRich098/CluckCluckMoose'
   },
   {
     title: 'City of Light',
     img: 'https://github.com/Oliviafx/cs3152-game/blob/master/readme-art/logo.jpg?raw=true',
-    description: 'A desktop puzzle/stealth game, set in 1920s Paris.',
+    description: 'A PC/Mac puzzle/stealth game set in 1920s Paris.',
     categories: ['game dev', 'Java'],
     siteUrl: 'https://www.bostonfig.com/exhibitor/city-of-light/',
     sourceCodeUrl: 'https://github.com/Oliviafx/cs3152-game'
@@ -94,7 +94,7 @@ const projects = [
     title: 'Restore-L: Kodiak Emulator',
     img: 'https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg',
     description: 'A data arbiter module to manage the emulator\'s LiDAR read/write transactions.',
-    categories: ['FPGA', 'C', 'VHDL', 'Python'],
+    categories: ['FPGA', 'C/C++', 'HDL', 'Python'],
     siteUrl: 'https://sspd.gsfc.nasa.gov/restore-L.html'
   },
   {
@@ -108,7 +108,7 @@ const projects = [
     title: 'LFO ASIC',
     img: 'https://www.ece.cornell.edu/themes/custom/cornell/assets/img/cornell_university-seal_red.svg',
     description: 'An ASIC module for the low-frequency oscillator in a synthesizer project.',
-    categories: ['hardware', 'Verilog', 'MATLAB'],
+    categories: ['hardware', 'HDL'],
     sourceCodeUrl: 'https://github.com/at669/ECE5746'
   },
   {
