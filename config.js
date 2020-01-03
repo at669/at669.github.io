@@ -99,7 +99,7 @@ const projects = [
   },
   {
     title: 'CU Solar Boat',
-    img: 'https://media.licdn.com/dms/image/C560BAQF4wmQ7gmG3Bw/company-logo_400_400/0?e=1582761600&v=beta&t=yEknwjCP44nRmMCpyRaJaLy7-5fT7pMt_DtWf_9BKEY',
+    img: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/12819221_1706820822866892_3252301890566566395_o.jpg?_nc_cat=110&_nc_ohc=BnN0E9_xH18AQlzpiRhwmoNGibkCF4TM045ECewWIaOL6rf1H5B-bGrPA&_nc_ht=scontent-sjc3-1.xx&oh=40bcb336a3ff70bd696e5096429ba0fc&oe=5E688C45',
     description: 'The motor control & telemetry systems for a solar-powered speedboat.',
     categories: ['Python', 'hardware'],
     siteUrl: 'http://cusolarboat.org/'
