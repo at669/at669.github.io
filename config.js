@@ -72,7 +72,7 @@ const projects = [
     img: 'https://avatars0.githubusercontent.com/u/42649948?s=200&v=4',
     description: 'An Oculus Quest app that takes users into their favorite paintings.',
     categories: ['AR/VR', 'C#', 'Unity'],
-    siteUrl: 'https://sites.google.com/cornell.edu/cs5650projectsfall2019/g01'
+    siteUrl: 'https://github.com/at669/project-2019-g01-let-s-gogh'
   },
   {
     title: 'Cluck Cluck Moose',
