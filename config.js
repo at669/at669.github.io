@@ -1,8 +1,6 @@
 const profile = {
   fullName: 'Amanda Trang',
   description: 'SOFTWARE & EMBEDDED DEVELOPER',
-  // The basepath is the assets folder
-  /// the file sould be imported in assets-import.js
   avatarPath: 'me.png',
   about: {
     title: `Amanda Trang`,
@@ -128,7 +126,6 @@ const projects = [
 ]
 
 const formUrl = 'http://localhost:4000'
-// const formUrl = 'https://at669.github.io/'
 const ReCAPTCHAKey = '6LcBOC8UAAAAAM9YRyBp1RR-1NnwvMU8UDsR63Vu'
 const missingProjectIcon = './assets/no-work-icon.jpg'
 
