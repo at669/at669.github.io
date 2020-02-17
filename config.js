@@ -68,7 +68,7 @@ const projects = [
   {
     title: 'Let\'s Gogh!',
     img: 'https://avatars0.githubusercontent.com/u/42649948?s=200&v=4',
-    description: 'An Oculus Quest app that takes users into their favorite paintings.',
+    description: 'An Oculus Quest application that takes users into their favorite paintings.',
     categories: ['AR/VR', 'C#', 'Unity'],
     siteUrl: 'https://github.com/at669/project-2019-g01-let-s-gogh'
   },
@@ -102,20 +102,27 @@ const projects = [
     categories: ['Python', 'hardware'],
     siteUrl: 'http://cusolarboat.org/'
   },
-  {
-    title: 'LFO ASIC',
-    img: 'https://www.ece.cornell.edu/themes/custom/cornell/assets/img/cornell_university-seal_red.svg',
-    description: 'An ASIC module for the low-frequency oscillator in a synthesizer project.',
-    categories: ['hardware', 'HDL'],
-    sourceCodeUrl: 'https://github.com/at669/ECE5746'
-  },
+  // {
+  //   title: 'LFO ASIC',
+  //   img: 'https://www.ece.cornell.edu/themes/custom/cornell/assets/img/cornell_university-seal_red.svg',
+  //   description: 'An ASIC module for the low-frequency oscillator in a synthesizer project.',
+  //   categories: ['hardware', 'HDL'],
+  //   sourceCodeUrl: 'https://github.com/at669/ECE5746'
+  // },
   {
     title: 'Product Studio',
     img: 'https://cornell-tech-logos.fvcproductions.com/assets/img/logos/twisted-t/png/black.png',
-    description: 'An low-data platform that connects refugees to the gig economy.',
+    description: 'A low-data platform that connects refugees to the gig economy.',
     categories: ['Python'],
     siteUrl: 'http://buildboard-10044.cornelltech.io/fall-2019/team_pages/F19-T069.html'
   },
+  // {
+  //   title: 'CareView',
+  //   img: 'https://cornell-tech-logos.fvcproductions.com/assets/img/logos/twisted-t/png/black.png',
+  //   description: '.',
+  //   categories: ['hardware'],
+  //   siteUrl: ''
+  // },
   {
     title: 'Security Box',
     img: 'https://courses.ece.cornell.edu/ece5990/ECE5725_Spring2019_Projects/at669_mr2242/pics/1.jpg',
