@@ -70,7 +70,8 @@ const projects = [
     img: 'https://avatars0.githubusercontent.com/u/42649948?s=200&v=4',
     description: 'An Oculus Quest application that takes users into their favorite paintings.',
     categories: ['AR/VR', 'C#', 'Unity'],
-    siteUrl: 'https://github.com/at669/project-2019-g01-let-s-gogh'
+    siteUrl: 'https://sites.google.com/cornell.edu/cs5650-projects-2019/'
+    // sourceCodeUrl: 'https://github.com/at669/project-2019-g01-let-s-gogh'
   },
   {
     title: 'Cluck Cluck Moose',
@@ -82,8 +83,8 @@ const projects = [
   },
   {
     title: 'City of Light',
-    img: 'https://github.com/Oliviafx/cs3152-game/blob/master/readme-art/logo.jpg?raw=true',
-    description: 'A PC/Mac puzzle/stealth game set in 1920s Paris.',
+    img: 'https://pbs.twimg.com/profile_images/1021442904663961600/tLQmPu5P_400x400.jpg',
+    description: 'A puzzle/stealth game set in 1920s Paris. A BostonFIG 2018 digital showcase game.',
     categories: ['game dev', 'Java'],
     siteUrl: 'https://www.bostonfig.com/exhibitor/city-of-light/',
     sourceCodeUrl: 'https://github.com/Oliviafx/cs3152-game'
@@ -110,18 +111,26 @@ const projects = [
   //   sourceCodeUrl: 'https://github.com/at669/ECE5746'
   // },
   {
-    title: 'Product Studio',
-    img: 'https://cornell-tech-logos.fvcproductions.com/assets/img/logos/twisted-t/png/black.png',
+    title: 'ReConnect',
+    img: 'https://www.unrefugees.org/img/UNHCR-visibility-horizontal-Blue-CMYK-v2016.svg',
     description: 'A low-data platform that connects refugees to the gig economy.',
     categories: ['Python'],
     siteUrl: 'http://buildboard-10044.cornelltech.io/fall-2019/team_pages/F19-T069.html'
   },
   // {
-  //   title: 'CareView',
+  //   title: 'Awear',
   //   img: 'https://cornell-tech-logos.fvcproductions.com/assets/img/logos/twisted-t/png/black.png',
   //   description: '.',
   //   categories: ['hardware'],
   //   siteUrl: ''
+  // },
+  // {
+  //   title: 'Koala Rescue',
+  //   img: 'https://ggj.s3.amazonaws.com/styles/game_sidebar__wide/featured_image/2020/02/274841/screen_shot_2020-02-02_at_2.53.25_pm.png?itok=vk5eCK9D&timestamp=1580673460',
+  //   description: '1-2 player platformer made over the span of a few hours for GameJam 2020.',
+  //   categories: ['game dev', 'C#', 'Unity'],
+  //   siteUrl: 'https://globalgamejam.org/2020/games/koala-rescue-4',
+  //   sourceCodeUrl: 'https://github.com/at669/GameJam2020'
   // },
   {
     title: 'Security Box',
