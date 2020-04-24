@@ -27,7 +27,7 @@ const profile = {
         hoverColor: '#333a87'
       },
       {
-        iconName: 'account-star',
+        iconName: 'linkedin',
         text: 'LinkedIn',
         url: 'https://www.linkedin.com/in/amandatrang/',
         hoverColor: '#333a87'
@@ -36,7 +36,7 @@ const profile = {
   },
   social: [
     {
-      iconName: 'account-star',
+      iconName: 'linkedin',
       url: 'https://www.linkedin.com/in/amandatrang/',
       text: "I'm on LinkedIn",
       hoverColor: '#333a87'
@@ -59,15 +59,26 @@ const profile = {
 const projects = [
   {
     title: 'Shujinkou',
-    img: 'https://www.ricegames.net/press/images/logo.png',
+    // img: 'https://www.ricegames.net/press/images/logo.png',
+    img: 'assets/img/sjk.png',
     description: 'An in-development story-driven Japanese language-learning action game.',
     categories: ['Unity', 'C#', 'game dev'],
     siteUrl: 'http://ricegames.net/'
     // sourceCodeUrl: 'github.com/user/project'
   },
+  // {
+  //   title: 'Topics in Mixed Reality',
+  //   // img: 'https://www.cs.cornell.edu/courses/cs5678/files/2020/01/vr-headset-icon-flipped.png',
+  //   img: 'assets/img/cs5678.png',
+  //   description: 'A research project on the effects of tactile thermal feedback in virtual reality.',
+  //   categories: ['AR/VR', 'C#', 'Unity', 'hardware'],
+  //   siteUrl: 'https://sites.google.com/cornell.edu/cs5678-projects-2020/',
+  //   sourceCodeUrl: 'https://github.com/at669/cs5678'
+  // },
   {
     title: 'Let\'s Gogh!',
-    img: 'https://avatars0.githubusercontent.com/u/42649948?s=200&v=4',
+    // img: 'https://avatars0.githubusercontent.com/u/42649948?s=200&v=4',
+    img: 'assets/img/arvr.png',
     description: 'An Oculus Quest application that takes users into their favorite paintings.',
     categories: ['AR/VR', 'C#', 'Unity'],
     siteUrl: 'https://sites.google.com/cornell.edu/cs5650-projects-2019/'
@@ -75,7 +86,9 @@ const projects = [
   },
   {
     title: 'Cluck Cluck Moose',
-    img: 'https://lh3.googleusercontent.com/D5OqXaqTx9I-IrAvkiqxioJsWUYjQixgQ-6cpsnJ5jASG0_BehaIJEVCjy4CVyt87D8=s360-rw',
+    // img: 'https://lh3.googleusercontent.com/D5OqXaqTx9I-IrAvkiqxioJsWUYjQixgQ-6cpsnJ5jASG0_BehaIJEVCjy4CVyt87D8=s360-rw',
+    // img: 'https://i.imgur.com/ueZynlU.png',
+    img: 'assets/img/ccm.png',
     description: 'A mobile chicken-stacking RPS game with lots of bad puns.',
     categories: ['game dev', 'C/C++'],
     siteUrl: 'https://play.google.com/store/apps/details?id=com.wingingitstudios.ccm&hl=en_US',
@@ -83,36 +96,34 @@ const projects = [
   },
   {
     title: 'City of Light',
-    img: 'https://pbs.twimg.com/profile_images/1021442904663961600/tLQmPu5P_400x400.jpg',
+    // img: 'https://pbs.twimg.com/profile_images/1021442904663961600/tLQmPu5P_400x400.jpg',
+    img: 'assets/img/cs3152.png',
     description: 'A puzzle/stealth game set in 1920s Paris. A BostonFIG 2018 digital showcase game.',
     categories: ['game dev', 'Java'],
     siteUrl: 'https://www.bostonfig.com/exhibitor/city-of-light/',
     sourceCodeUrl: 'https://github.com/Oliviafx/cs3152-game'
   },
   {
-    title: 'Restore-L: Kodiak Emulator',
-    img: 'https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg',
-    description: 'A data arbiter module to manage the emulator\'s LiDAR read/write transactions.',
+    title: 'OSAM-1: Kodiak Emulator',
+    // img: 'https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg',
+    img: 'assets/img/nasa.jpeg',
+    description: '(Prev. Restore-L). A data arbiter to manage the emulator\'s LiDAR rx/tx transactions.',
     categories: ['FPGA', 'C/C++', 'HDL', 'Python'],
     siteUrl: 'https://sspd.gsfc.nasa.gov/restore-L.html'
   },
   {
     title: 'CU Solar Boat',
-    img: 'https://scontent-sjc3-1.xx.fbcdn.net/v/t31.0-8/12819221_1706820822866892_3252301890566566395_o.jpg?_nc_cat=110&_nc_ohc=BnN0E9_xH18AQlzpiRhwmoNGibkCF4TM045ECewWIaOL6rf1H5B-bGrPA&_nc_ht=scontent-sjc3-1.xx&oh=40bcb336a3ff70bd696e5096429ba0fc&oe=5E688C45',
+    // img: 'https://i.imgur.com/g6vL056.png',
+    img: 'assets/img/cusb.png',
     description: 'The motor control & telemetry systems for a solar-powered speedboat.',
     categories: ['Python', 'hardware'],
-    siteUrl: 'http://cusolarboat.org/'
+    // siteUrl: 'http://cusolarboat.org/'
+    siteUrl: 'https://www.facebook.com/CUsolarboat'
   },
-  // {
-  //   title: 'LFO ASIC',
-  //   img: 'https://www.ece.cornell.edu/themes/custom/cornell/assets/img/cornell_university-seal_red.svg',
-  //   description: 'An ASIC module for the low-frequency oscillator in a synthesizer project.',
-  //   categories: ['hardware', 'HDL'],
-  //   sourceCodeUrl: 'https://github.com/at669/ECE5746'
-  // },
   {
     title: 'ReConnect',
-    img: 'https://www.unrefugees.org/img/UNHCR-visibility-horizontal-Blue-CMYK-v2016.svg',
+    // img: 'https://www.unrefugees.org/img/UNHCR-visibility-horizontal-Blue-CMYK-v2016.svg',
+    img: 'assets/img/unhcr.jpeg',
     description: 'A low-data platform that connects refugees to the gig economy.',
     categories: ['Python'],
     siteUrl: 'http://buildboard-10044.cornelltech.io/fall-2019/team_pages/F19-T069.html'
@@ -134,7 +145,8 @@ const projects = [
   // },
   {
     title: 'Security Box',
-    img: 'https://courses.ece.cornell.edu/ece5990/ECE5725_Spring2019_Projects/at669_mr2242/pics/1.jpg',
+    // img: 'https://courses.ece.cornell.edu/ece5990/ECE5725_Spring2019_Projects/at669_mr2242/pics/1.jpg',
+    img: 'assets/img/eos.jpg',
     description: 'A security box capable of facial recognition, voice recognition, and NFC detection.',
     categories: ['Python', 'hardware'],
     siteUrl: 'https://courses.ece.cornell.edu/ece5990/ECE5725_Spring2019_Projects/at669_mr2242/index.html'
