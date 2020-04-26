@@ -32,6 +32,88 @@ const profile = {
         url: 'https://www.linkedin.com/in/amandatrang/',
         hoverColor: '#333a87'
       }
+    ],
+    programmingLanguages: [
+      {
+        iconName: 'python',
+        text: 'Python',
+        hoverColor: '#333a87'
+      },
+      {
+        iconName: 'csharp',
+        text: 'C#',
+        hoverColor: '#333a87'
+      },
+      {
+        iconName: 'cpp',
+        text: 'C++',
+        hoverColor: '#333a87'
+      },
+      {
+        iconName: 'c',
+        text: 'C',
+        hoverColor: '#333a87'
+      },
+      {
+        iconName: 'java',
+        text: 'Java',
+        hoverColor: '#333a87'
+      },
+      {
+        iconName: 'unity',
+        text: 'Unity',
+        hoverColor: '#333a87'
+      },
+      // {
+      //   iconName: 'unreal',
+      //   text: 'Unreal Engine',
+      //   hoverColor: '#333a87'
+      // },
+      {
+        iconName: 'mr',
+        text: 'AR/VR',
+        hoverColor: '#333a87'
+      },
+      {
+        iconName: 'git',
+        text: 'Git',
+        hoverColor: '#333a87'
+      },
+      // {
+      //   iconName: 'rpi',
+      //   text: 'Raspberry Pi',
+      //   hoverColor: '#333a87'
+      // },
+      {
+        iconName: 'embedded',
+        text: 'Hardware',
+        hoverColor: '#333a87'
+      },
+      {
+        iconName: 'windows',
+        text: 'Windows',
+        hoverColor: '#333a87'
+      },
+      {
+        iconName: 'osx',
+        text: 'OSX',
+        hoverColor: '#333a87'
+      },
+      {
+        iconName: 'linux',
+        text: 'UNIX/Linux',
+        hoverColor: '#333a87'
+      }
+      // {
+      //   iconName: 'android',
+      //   text: 'Android',
+      //   hoverColor: '#333a87'
+      // },
+      // {
+      //   iconName: 'ios',
+      //   text: 'iOS',
+      //   hoverColor: '#333a87'
+      // }
     ]
   },
   social: [
