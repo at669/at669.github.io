@@ -63,6 +63,11 @@ const profile = {
         hoverColor: '#333a87'
       },
       {
+        iconName: 'gamepad',
+        text: 'Game Design',
+        hoverColor: '#333a87'
+      },
+      {
         iconName: 'unity',
         text: 'Unity',
         hoverColor: '#333a87'
@@ -93,20 +98,30 @@ const profile = {
         hoverColor: '#333a87'
       },
       {
-        iconName: 'windows',
-        text: 'Windows',
+        iconName: 'XOR',
+        text: 'FPGA/HDL',
         hoverColor: '#333a87'
       },
       {
-        iconName: 'osx',
-        text: 'OSX',
-        hoverColor: '#333a87'
-      },
-      {
-        iconName: 'linux',
-        text: 'UNIX/Linux',
+        iconName: 'brain',
+        text: 'Machine Learning',
         hoverColor: '#333a87'
       }
+      // {
+      //   iconName: 'windows',
+      //   text: 'Windows',
+      //   hoverColor: '#333a87'
+      // },
+      // {
+      //   iconName: 'osx',
+      //   text: 'OSX',
+      //   hoverColor: '#333a87'
+      // },
+      // {
+      //   iconName: 'linux',
+      //   text: 'UNIX/Linux',
+      //   hoverColor: '#333a87'
+      // }
       // {
       //   iconName: 'android',
       //   text: 'Android',
