@@ -4,16 +4,13 @@ const profile = {
   avatarPath: 'me.png',
   about: {
     title: `Amanda Trang`,
-    // description: `Currently a Software Developer Intern at Unity Technologies. I've received my M.Eng in Computer Science from Cornell Tech and a B.S. in Electrical and Computer Engineering from Cornell University, with a minor in Game Design. My interests span game development, VR/AR, hardware and robotics, and generally how technology interacts with the world. 
+    description: `I'm a software developer with a hardware background and I make games for fun (and for a living). 
     
-    // In my spare time, I enjoy listening to and making music, playing and making video games, falling off my skateboard, and taking low-quality pictures of dogs.`,
-    description: `I'm currently an M.Eng student at Cornell Tech studying Computer Science. My background is in Electrical and Computer Engineering at Cornell University with a Game Design minor. My interests span hardware and robotics, VR/AR, game development, and generally how technology interacts with the world.
-    
-    In my spare time, I enjoy listening to and making music, playing and making video games, falling off my skateboard, and taking low-quality pictures of dogs.`,
+    I've recently received my M.Eng in Computer Science from Cornell Tech and a B.S. in Electrical and Computer Engineering from Cornell University, with a minor in Game Design. My interests span game development, VR/AR, hardware and robotics, and generally how technology interacts with each other and the world. In my spare time, I enjoy listening to and making music, playing and making video games, falling off my skateboard, and taking low-quality pictures of dogs.`,
     findMeOn: [
       {
         iconName: 'location',
-        text: 'New York, NY',
+        text: 'Greater Salt Lake City, UT',
         url: '',
         hoverColor: '#333a87'
       },
@@ -167,10 +164,10 @@ const projects = [
   },
   {
     title: 'Thermics',
-    img: 'assets/img/cs5678-2.png',
+    img: 'assets/img/cs5678.png',
     description: 'A research project on the effects of tactile thermal feedback in virtual reality.',
     categories: ['AR/VR', 'C#', 'Unity', 'hardware'],
-    // siteUrl: 'https://sites.google.com/cornell.edu/cs5678-projects-2020/',
+    // siteUrl: 'https://sites.google.com/cornell.edu/cs5678-projects-2020/projects/',
     sourceCodeUrl: 'https://github.com/at669/cs5678'
   },
   {
