@@ -35,13 +35,13 @@ const profile = {
     ],
     programmingLanguages: [
       {
-        iconName: 'python',
-        text: 'Python',
+        iconName: 'csharp',
+        text: 'C#',
         hoverColor: '#333a87'
       },
       {
-        iconName: 'csharp',
-        text: 'C#',
+        iconName: 'python',
+        text: 'Python',
         hoverColor: '#333a87'
       },
       {
@@ -160,8 +160,22 @@ const projects = [
     description: 'An in-development story-driven Japanese language learning game.',
     categories: ['Unity', 'C#', 'game dev'],
     siteUrl: 'http://ricegames.net/'
-    // sourceCodeUrl: 'github.com/user/project'
   },
+  {
+    title: 'Unity Simulation Demos',
+    img: 'assets/img/sim_warehouse.png',
+    description: 'Sample Unity projects featuring ADR, synthetic data generation, and DOTS.',
+    categories: ['Unity', 'C#', 'Python'],
+    siteUrl: 'https://github.com/Unity-Technologies/Unity-Simulation-Docs'
+    // sourceCodeUrl: 'https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor'
+  },
+  // {
+  //   title: 'Project Zero',
+  //   img: 'assets/img/sim_windridge.png',
+  //   description: '.',
+  //   categories: ['Unity', 'C#'],
+  //   sourceCodeUrl: 'https://github.com/at669/CCTrain/tree/master/Project0'
+  // },
   {
     title: 'Thermics',
     img: 'assets/img/cs5678.png',
@@ -175,14 +189,13 @@ const projects = [
     img: 'assets/img/arvr.png',
     description: 'An Oculus Quest application that takes users into their favorite paintings.',
     categories: ['AR/VR', 'C#', 'Unity'],
-    // siteUrl: 'https://sites.google.com/cornell.edu/cs5650-projects-2019/',
     siteUrl: 'https://sites.google.com/cornell.edu/cs5650-projects-2019/projects/lets-gogh?authuser=0',
     sourceCodeUrl: 'https://github.com/at669/project-2019-g01-let-s-gogh'
   },
   {
     title: 'Cluck Cluck Moose',
     img: 'assets/img/ccm.png',
-    description: 'A mobile chicken-stacking RPS game with lots of bad puns.',
+    description: 'A mobile chicken-stacking RPS game with lots of bad puns. Now on the Play Store!',
     categories: ['game dev', 'C/C++'],
     siteUrl: 'https://play.google.com/store/apps/details?id=com.wingingitstudios.ccm&hl=en_US',
     sourceCodeUrl: 'https://github.com/ZRich098/CluckCluckMoose'
@@ -197,8 +210,8 @@ const projects = [
   },
   {
     title: 'OSAM-1: Kodiak Emulator',
-    img: 'assets/img/nasa.jpeg',
-    description: '(Prev. Restore-L). A data arbiter to manage the emulator\'s LiDAR rx/tx transactions.',
+    img: 'assets/img/osam.jpg',
+    description: 'A data arbiter to manage the LiDAR emulator\'s rx/tx transactions.',
     categories: ['FPGA', 'C/C++', 'HDL', 'Python'],
     siteUrl: 'https://sspd.gsfc.nasa.gov/restore-L.html'
   },
@@ -209,29 +222,14 @@ const projects = [
     categories: ['Python', 'hardware'],
     // siteUrl: 'http://cusolarboat.org/'
     siteUrl: 'https://www.facebook.com/CUsolarboat'
-  },
-  // {
-  //   title: 'ReConnect',
-  //   // img: 'https://www.unrefugees.org/img/UNHCR-visibility-horizontal-Blue-CMYK-v2016.svg',
-  //   img: 'assets/img/unhcr.jpeg',
-  //   description: 'A low-data platform that connects refugees to the gig economy.',
-  //   categories: ['Python'],
-  //   siteUrl: 'http://buildboard-10044.cornelltech.io/fall-2019/team_pages/F19-T069.html'
-  // },
-  // {
-  //   title: 'Awear',
-  //   img: 'https://cornell-tech-logos.fvcproductions.com/assets/img/logos/twisted-t/png/black.png',
-  //   description: '.',
-  //   categories: ['hardware'],
-  //   siteUrl: ''
-  // },
-  {
-    title: 'Security Box',
-    img: 'assets/img/eos.jpg',
-    description: 'A security box capable of facial recognition, voice recognition, and NFC detection.',
-    categories: ['Python', 'hardware'],
-    siteUrl: 'https://courses.ece.cornell.edu/ece5990/ECE5725_Spring2019_Projects/at669_mr2242/index.html'
   }
+  // {
+  //   title: 'Security Box',
+  //   img: 'assets/img/eos.jpg',
+  //   description: 'A security box capable of facial recognition, voice recognition, and NFC detection.',
+  //   categories: ['Python', 'hardware'],
+  //   siteUrl: 'https://courses.ece.cornell.edu/ece5990/ECE5725_Spring2019_Projects/at669_mr2242/index.html'
+  // }
 ]
 
 const formUrl = 'http://localhost:4000'
