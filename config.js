@@ -166,7 +166,7 @@ const projects = [
     img: 'assets/img/sim_warehouse.png',
     description: 'Sample Unity projects featuring ADR, synthetic data generation, and DOTS.',
     categories: ['Unity', 'C#', 'Python'],
-    siteUrl: 'https://github.com/Unity-Technologies/Unity-Simulation-Docs'
+    siteUrl: 'https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-simulation-sample-project-warehouse-robot-176606'
     // sourceCodeUrl: 'https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor'
   },
   // {
