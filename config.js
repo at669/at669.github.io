@@ -1,6 +1,6 @@
 const profile = {
   fullName: 'Amanda Trang',
-  description: 'SOFTWARE & EMBEDDED DEVELOPER',
+  description: 'SOFTWARE DEVELOPER',
   avatarPath: 'me.png',
   about: {
     title: `Amanda Trang`,
@@ -10,7 +10,7 @@ const profile = {
     findMeOn: [
       {
         iconName: 'location',
-        text: 'Greater Salt Lake City, UT',
+        text: 'Greater Salt Lake City Area, UT',
         url: '',
         hoverColor: '#333a87'
       },
@@ -161,13 +161,21 @@ const projects = [
     categories: ['Unity', 'C#', 'game dev'],
     siteUrl: 'http://ricegames.net/'
   },
+  // {
+  //   title: 'Unity Robotics: Pick and Place',
+  //   img: 'assets/img/.png',
+  //   description: '',
+  //   categories: ['Unity', 'C#', 'Python'],
+  //   siteUrl: 'https://unity.com/solutions/automotive-transportation-manufacturing/robotics',
+  //   sourceCodeUrl: ''
+  // },
   {
     title: 'Unity Simulation Demos',
     img: 'assets/img/sim_warehouse.png',
     description: 'Sample Unity projects featuring ADR, synthetic data generation, and DOTS.',
     categories: ['Unity', 'C#', 'Python'],
-    siteUrl: 'https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-simulation-sample-project-warehouse-robot-176606'
-    // sourceCodeUrl: 'https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor'
+    siteUrl: 'https://github.com/Unity-Technologies/Unity-Simulation-Docs',
+    sourceCodeUrl: 'https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-simulation-sample-project-warehouse-robot-176606'
   },
   // {
   //   title: 'Project Zero',
@@ -181,7 +189,7 @@ const projects = [
     img: 'assets/img/cs5678.png',
     description: 'A research project on the effects of tactile thermal feedback in virtual reality.',
     categories: ['AR/VR', 'C#', 'Unity', 'hardware'],
-    // siteUrl: 'https://sites.google.com/cornell.edu/cs5678-projects-2020/projects/',
+    siteUrl: 'https://sites.google.com/cornell.edu/cs5678-2020sp-projects/home/thermics',
     sourceCodeUrl: 'https://github.com/at669/cs5678'
   },
   {
