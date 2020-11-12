@@ -4,9 +4,9 @@ const profile = {
   avatarPath: 'me.png',
   about: {
     title: `Amanda Trang`,
-    description: `I'm a software developer with a hardware background and I make games for fun (and for a living). 
+    description: `I'm a software developer with a hardware background, and I think games are neat. 
     
-    I've recently received my M.Eng in Computer Science from Cornell Tech and a B.S. in Electrical and Computer Engineering from Cornell University, with a minor in Game Design. My interests span game development, VR/AR, hardware and robotics, and generally how technology interacts with each other and the world. In my spare time, I enjoy listening to and making music, playing and making video games, falling off my skateboard, and taking low-quality pictures of dogs.`,
+    I've recently received my M.Eng in Computer Science and a B.S. in Electrical and Computer Engineering from Cornell University, with a minor in Game Design. My interests span game development, VR/AR, and hardware and robotics. In my spare time, I enjoy listening to and making music, playing and making video games, falling off my skateboard, and taking low-quality pictures of dogs.`,
     findMeOn: [
       {
         iconName: 'location',
@@ -79,16 +79,16 @@ const profile = {
         text: 'AR/VR',
         hoverColor: '#333a87'
       },
-      {
-        iconName: 'git',
-        text: 'Git',
-        hoverColor: '#333a87'
-      },
       // {
-      //   iconName: 'rpi',
-      //   text: 'Raspberry Pi',
+      //   iconName: 'git',
+      //   text: 'Git',
       //   hoverColor: '#333a87'
       // },
+      {
+        iconName: 'robot',
+        text: 'ROS',
+        hoverColor: '#333a87'
+      },
       {
         iconName: 'embedded',
         text: 'Hardware',
@@ -104,22 +104,6 @@ const profile = {
         text: 'Machine Learning',
         hoverColor: '#333a87'
       }
-      // {
-      //   iconName: 'windows',
-      //   text: 'Windows',
-      //   hoverColor: '#333a87'
-      // },
-      // {
-      //   iconName: 'osx',
-      //   text: 'OSX',
-      //   hoverColor: '#333a87'
-      // },
-      // {
-      //   iconName: 'linux',
-      //   text: 'UNIX/Linux',
-      //   hoverColor: '#333a87'
-      // }
-      // {
       //   iconName: 'android',
       //   text: 'Android',
       //   hoverColor: '#333a87'
@@ -161,14 +145,14 @@ const projects = [
     categories: ['Unity', 'C#', 'game dev'],
     siteUrl: 'http://ricegames.net/'
   },
-  // {
-  //   title: 'Unity Robotics: Pick and Place',
-  //   img: 'assets/img/.png',
-  //   description: '',
-  //   categories: ['Unity', 'C#', 'Python'],
-  //   siteUrl: 'https://unity.com/solutions/automotive-transportation-manufacturing/robotics',
-  //   sourceCodeUrl: ''
-  // },
+  {
+    title: 'Pick and Place Tutorial',
+    img: 'assets/img/niryo.png',
+    description: 'An end-to-end tutorial to integrate ROS with Unity.',
+    categories: ['Unity', 'C#', 'Python', 'robotics'],
+    siteUrl: 'https://unity.com/solutions/automotive-transportation-manufacturing/robotics',
+    sourceCodeUrl: 'https://github.com/Unity-Technologies/Unity-Robotics-Hub/'
+  },
   {
     title: 'Unity Simulation Demos',
     img: 'assets/img/sim_warehouse.png',
@@ -222,15 +206,15 @@ const projects = [
     description: 'A data arbiter to manage the LiDAR emulator\'s rx/tx transactions.',
     categories: ['FPGA', 'C/C++', 'HDL', 'Python'],
     siteUrl: 'https://sspd.gsfc.nasa.gov/restore-L.html'
-  },
-  {
-    title: 'CU Solar Boat',
-    img: 'assets/img/cusb.png',
-    description: 'The motor control & telemetry systems for a solar-powered speedboat.',
-    categories: ['Python', 'hardware'],
-    // siteUrl: 'http://cusolarboat.org/'
-    siteUrl: 'https://www.facebook.com/CUsolarboat'
   }
+  // {
+  //   title: 'CU Solar Boat',
+  //   img: 'assets/img/cusb.png',
+  //   description: 'The motor control & telemetry systems for a solar-powered speedboat.',
+  //   categories: ['Python', 'hardware'],
+  //   // siteUrl: 'http://cusolarboat.org/'
+  //   siteUrl: 'https://www.facebook.com/CUsolarboat'
+  // }
   // {
   //   title: 'Security Box',
   //   img: 'assets/img/eos.jpg',
