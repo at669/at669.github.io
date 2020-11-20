@@ -146,11 +146,11 @@ const projects = [
     siteUrl: 'http://ricegames.net/'
   },
   {
-    title: 'Pick and Place Tutorial',
+    title: 'Pick-and-Place Demo',
     img: 'assets/img/niryo.png',
     description: 'An end-to-end tutorial to integrate ROS with Unity.',
     categories: ['Unity', 'C#', 'Python', 'robotics'],
-    siteUrl: 'https://unity.com/solutions/automotive-transportation-manufacturing/robotics',
+    siteUrl: 'https://blogs.unity3d.com/2020/11/19/robotics-simulation-in-unity-is-as-easy-as-1-2-3/',
     sourceCodeUrl: 'https://github.com/Unity-Technologies/Unity-Robotics-Hub/'
   },
   {
@@ -214,13 +214,6 @@ const projects = [
   //   categories: ['Python', 'hardware'],
   //   // siteUrl: 'http://cusolarboat.org/'
   //   siteUrl: 'https://www.facebook.com/CUsolarboat'
-  // }
-  // {
-  //   title: 'Security Box',
-  //   img: 'assets/img/eos.jpg',
-  //   description: 'A security box capable of facial recognition, voice recognition, and NFC detection.',
-  //   categories: ['Python', 'hardware'],
-  //   siteUrl: 'https://courses.ece.cornell.edu/ece5990/ECE5725_Spring2019_Projects/at669_mr2242/index.html'
   // }
 ]
 
