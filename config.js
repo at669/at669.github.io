@@ -143,7 +143,7 @@ const projects = [
     img: 'assets/img/sjk.png',
     description: 'An in-development story-driven Japanese language learning game.',
     categories: ['Unity', 'C#', 'game dev'],
-    siteUrl: 'http://ricegames.net/'
+    siteUrl: 'http://ricegames.net/shujinkou'
   },
   {
     title: 'Pick-and-Place Demo',
