@@ -9,18 +9,6 @@ const profile = {
     I've recently received my M.Eng in Computer Science and a B.S. in Electrical and Computer Engineering from Cornell University, with a minor in Game Design. My interests span game development, VR/AR, and hardware and robotics. In my spare time, I enjoy listening to and making music, playing and making video games, falling off my skateboard, and taking low-quality pictures of dogs.`,
     findMeOn: [
       {
-        iconName: 'location',
-        text: 'Greater Salt Lake City Area, UT',
-        url: '',
-        hoverColor: '#333a87'
-      },
-      {
-        iconName: 'github',
-        text: 'GitHub',
-        url: 'https://github.com/at669',
-        hoverColor: '#333a87'
-      },
-      {
         iconName: 'email',
         text: 'amanda.q.trang@gmail.com',
         url: 'mailto:amanda.q.trang@gmail.com',
@@ -28,8 +16,20 @@ const profile = {
       },
       {
         iconName: 'linkedin',
-        text: 'LinkedIn',
+        text: 'amandatrang',
         url: 'https://www.linkedin.com/in/amandatrang/',
+        hoverColor: '#333a87'
+      },
+      {
+        iconName: 'itchio',
+        text: 'amango',
+        url: 'https://amango.itch.io/',
+        hoverColor: '#333a87'
+      },
+      {
+        iconName: 'github',
+        text: 'at669',
+        url: 'https://github.com/at669',
         hoverColor: '#333a87'
       }
     ],
@@ -126,6 +126,12 @@ const profile = {
       iconName: 'github',
       url: 'https://github.com/at669',
       text: "I'm on Github",
+      hoverColor: '#333a87'
+    },
+    {
+      iconName: 'itchio',
+      url: 'https://amango.itch.io/',
+      text: "I'm on itch.io",
       hoverColor: '#333a87'
     },
     {
