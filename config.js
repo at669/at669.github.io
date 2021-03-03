@@ -152,11 +152,11 @@ const projects = [
     siteUrl: 'http://ricegames.net/shujinkou'
   },
   {
-    title: 'Pick-and-Place Demo',
+    title: 'Unity Robotics Demos',
     img: 'assets/img/niryo.png',
-    description: 'An end-to-end tutorial to integrate ROS with Unity.',
+    description: 'Tutorials, documentation, and tools for robotic simulation in Unity.',
     categories: ['Unity', 'C#', 'Python', 'robotics'],
-    siteUrl: 'https://blogs.unity3d.com/2020/11/19/robotics-simulation-in-unity-is-as-easy-as-1-2-3/',
+    siteUrl: 'https://unity.com/solutions/automotive-transportation-manufacturing/robotics',
     sourceCodeUrl: 'https://github.com/Unity-Technologies/Unity-Robotics-Hub/'
   },
   {
