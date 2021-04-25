@@ -8,7 +8,7 @@
     "contact_alt": "Contact"
   },
   "about": {
-    "find_me": "Contact me:"
+    "find_me": "Find me on:"
   },
   "work": {
     "no_projects": "Whoops! There's nothing here yet!",
@@ -22,9 +22,9 @@
       "close": "Close"
     },
     "form": {
-      "name": "What's your name?",
-      "email": "What's your email?",
-      "message": "Please, explain yourself:",
+      "name": "Name",
+      "email": "Email",
+      "message": "What are you contacting me about?:",
       "validation": {
         "invalid_name": "Invalid name",
         "invalid_email": "Invalid email",
