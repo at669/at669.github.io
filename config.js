@@ -1,22 +1,16 @@
 const profile = {
   fullName: 'Amanda Trang',
-  description: 'SOFTWARE DEVELOPER',
+  description: 'SOFTWARE ENGINEER',
   avatarPath: 'me.png',
   about: {
     title: `Amanda Trang`,
-    description: `I'm a software developer with a hardware background, and I think games are neat. 
-    
+    description: `I'm a software developer with a hardware background, and I think games are neat.
+
     I've recently received my M.Eng in Computer Science and a B.S. in Electrical and Computer Engineering from Cornell University, with a minor in Game Design. My interests span game development, VR/AR, and hardware and robotics. In my spare time, I enjoy listening to and making music, playing and making video games, falling off my skateboard, and taking low-quality pictures of dogs.`,
     findMeOn: [
-      // {
-      //   iconName: 'email',
-      //   text: 'amanda.q.trang@gmail.com',
-      //   url: 'mailto:amanda.q.trang@gmail.com',
-      //   hoverColor: '#333a87'
-      // },
       {
         iconName: 'location',
-        text: 'Salt Lake City, Utah',
+        text: 'Seattle, WA',
         // url: '',
         hoverColor: '#333a87'
       },
@@ -146,12 +140,6 @@ const profile = {
     //   text: 'Contact me',
     //   hoverColor: '#333a87'
     // }
-    // {
-    //   iconName: 'email',
-    //   url: 'mailto:amanda.q.trang@gmail.com',
-    //   text: 'Send me an email',
-    //   hoverColor: '#333a87'
-    // }
   ]
 }
 
@@ -161,7 +149,7 @@ const projects = [
     img: 'assets/img/sjk.png',
     description: 'An in-development story-driven Japanese language learning game.',
     categories: ['Unity', 'C#', 'game dev'],
-    siteUrl: 'http://ricegames.net/shujinkou'
+    siteUrl: 'https://www.shujinkou.net/'
   },
   {
     title: 'Unity Robotics Demos',
